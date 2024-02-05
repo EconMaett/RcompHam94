@@ -1,0 +1,71 @@
+\ifx\undefined\BySame
+\newcommand{\BySame}{\leavevmode\rule[.5ex]{3em}{.5pt}\ }
+\fi
+\ifx\undefined\textsc
+\newcommand{\textsc}[1]{{\sc #1}}
+\newcommand{\emph}[1]{{\em #1\/}}
+\let\tmpsmall\small
+\renewcommand{\small}{\tmpsmall\sc}
+\fi
+\begin{thebibliography}{}
+
+\harvarditem[de~Micheaux and Liquet]{de~Micheaux and
+  Liquet}{2009}{Micheaux2009}
+\textsc{de~Micheaux, P.~L.,  {\small and} B.~Liquet}  (2009):
+  ``ConvergenceConcepts : an R Package to Investigate Various Modes of
+  Convergence,'' \emph{The R Journal}, 1(2), 18--25.
+
+\harvarditem[Elliott, Rothenberg, and Stock]{Elliott, Rothenberg, and
+  Stock}{1996}{ERS1996}
+\textsc{Elliott, G., T.~Rothenberg,  {\small and} J.~Stock}  (1996):
+  ``Efficient Tests for an Autoregressive Unit Root,'' \emph{Econometrica},
+  64(4), 813--836.
+
+\harvarditem[Hamilton]{Hamilton}{1994}{Hamilton1994}
+\textsc{Hamilton, J.}  (1994): \emph{Time series analysis}. Princeton
+  University Press.
+
+\harvarditem[Hansen]{Hansen}{1995}{Hansen1995}
+\textsc{Hansen, B.~E.}  (1995): ``Rethinking the Univariate Approach to Unit
+  Root Testing: Using Covariates to Increase Power,'' \emph{Econometric
+  Theory}, 11(05), 1148--1171.
+
+\harvarditem[Kleiber and Zeileis]{Kleiber and
+  Zeileis}{2008}{KleiberZeileis2008}
+\textsc{Kleiber, C.,  {\small and} A.~Zeileis}  (2008): \emph{Applied
+  Econometrics with {R}}. Springer-Verlag, New York.
+
+\harvarditem[Kwiatkowski, Phillips, Schmidt, and Shin]{Kwiatkowski, Phillips,
+  Schmidt, and Shin}{1992}{KPSS}
+\textsc{Kwiatkowski, D., P.~Phillips, P.~Schmidt,  {\small and} Y.~Shin}
+  (1992): ``Testing the Null Hypothesis of Stationarity Against the Alternative
+  of a Unit Root: How Sure Are We That Economic Time Series Have a Unit
+  Root?,'' \emph{Journal of Econometrics}, 54, 159--178.
+
+\harvarditem[Lupi]{Lupi}{2009}{Lupi2009}
+\textsc{Lupi, C.}  (2009): ``Unit Root CADF Testing with R,'' \emph{Journal of
+  Statistical Software}, 32(2)(i02).
+
+\harvarditem[Maddala and Kim]{Maddala and Kim}{1998}{MaddalaKim1998}
+\textsc{Maddala, G.~S.,  {\small and} I.-M. Kim}  (1998): \emph{Unit roots,
+  Cointegration and Structural Change}. Cambridge University Press.
+
+\harvarditem[Ng and Perron]{Ng and Perron}{2001}{NgPerron2001}
+\textsc{Ng, S.,  {\small and} P.~Perron}  (2001): ``LAG Length Selection and
+  the Construction of Unit Root Tests with Good Size and Power,''
+  \emph{Econometrica}, 69(6), 1519--1554.
+
+\harvarditem[Perron and Qu]{Perron and Qu}{2007}{PerronQu2007}
+\textsc{Perron, P.,  {\small and} Z.~Qu}  (2007): ``A simple modification to
+  improve the finite sample properties of Ng and Perron's unit root tests,''
+  \emph{Economics Letters}, 94(1), 12--19.
+
+\harvarditem[Pfaff]{Pfaff}{2008}{PfaffBook2008}
+\textsc{Pfaff, B.}  (2008): \emph{Analysis of Integrated and Cointegrated Time
+  Series with R}. Springer, New York, second edn., ISBN 0-387-27960-1.
+
+\harvarditem[Phillips and Xiao]{Phillips and Xiao}{1998}{PhillipsXiao1998}
+\textsc{Phillips, P. C.~B.,  {\small and} Z.~Xiao}  (1998): ``A Primer on Unit
+  Root Testing,'' \emph{Journal of Economic Surveys}, 12(5), 423--69.
+
+\end{thebibliography}

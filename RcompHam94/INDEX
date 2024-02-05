@@ -1,0 +1,4 @@
+Dickey.Fuller           Dickey Fuller Tests For Non-Stationary
+Newey.West              Newey West Estimator
+Phillips.Perron         Phillips Perron Tests For Non-Stationary
+Wald.F.Test             Wald F Test of a Linear Hypothesis
